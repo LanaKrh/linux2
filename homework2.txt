@@ -1,0 +1,16 @@
+   0 pwd
+   1 mkdir -p /home/user/start
+   2 cd /home/user/start
+   3 touch 1.txt
+   4 echo "Start" >> 1.txt
+   5 date +"26 Februar 2023 Year"
+   6 date +"26 Februar 2023 Year" >> 1.txt
+   7 cd
+   8 mkdir -p /opt/task
+   9 cd /opt/task
+  10 touch start.txt
+  11 cd
+  12 cp /home/user/start/1.txt /opt/task/start.txt
+  13 ls -a / | tail -4 >> /opt/task/start.txt
+  14 history
+  15 history > homework2.txt
